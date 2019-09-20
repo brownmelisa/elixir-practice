@@ -1,0 +1,40 @@
+Please fill in answers to the questions below:
+
+
+1. What's your name?
+   Melisa Brown
+
+2. What hostname did you deploy to?
+   mochiswebforge.site	
+
+3. What's the URL of your git repo?
+   https://github.com/brownmelisa/elixir-practice
+
+4. How much of the functionality did you complete?
+   Completed the palindrome and the test. Did not completely finish 
+   the factor or the calculate. I can deploy the site using the 
+   start.sh and the deploy.sh scripts, but could not get the service
+   to work.
+
+5. Did you successfully deploy? If not, what's broken?
+   No. The deploy.sh and start.sh work, but not the service.
+
+6. How comfortable do you feel with Elixir now?
+   Still struggling to understand how to deal with loops that don't 
+   involve lists, since map and Enum involve sets. 
+
+7. Which parts of this assignment did you have trouble with, if any?
+   The deployment was the most frustrating. I spent hours going
+   through the phoenix documentation to try to get the service to 
+   work. I ended up running out of time with the coding.
+
+
+And here's a list of tasks for grading comments. Just leave this here:
+ - Task 1
+ - Task 2
+ - Task 3
+ - Task 4
+ - Task 5
+ - Task 6
+ - Task 7
+ - Task 8
