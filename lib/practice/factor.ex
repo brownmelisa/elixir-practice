@@ -25,8 +25,9 @@ defmodule Practice.Factor do
     divisor = 2
     factorsList = []
     x_int = parse_int(x)
-    factorHelper(x_int, divisor, factorsList) 
-    #"TEST RESULT"
+    result = factorHelper(x_int, divisor, factorsList) 
+    result
+    #"TEST_RESULT"
   end
 
 end

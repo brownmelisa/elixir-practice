@@ -11,22 +11,24 @@ Please fill in answers to the questions below:
    https://github.com/brownmelisa/elixir-practice
 
 4. How much of the functionality did you complete?
-   Completed the palindrome and the test. Did not completely finish 
-   the factor or the calculate. I can deploy the site using the 
-   start.sh and the deploy.sh scripts, but could not get the service
-   to work.
+   Completed the palindrome. The math on the factor is correct, 
+   but it still failed one test because of pattern matching
+   and the result is not displaying on the web. I did not
+   implement the order of operations portion of the calc function
+   because I didn't completely understand how you wanted us to 
+   implement the postfix and prefix.
 
 5. Did you successfully deploy? If not, what's broken?
-   No. The deploy.sh and start.sh work, but not the service.
+   Yes, I got to deploy, but the answer to the factor page
+   is not displaying.
 
 6. How comfortable do you feel with Elixir now?
    Still struggling to understand how to deal with loops that don't 
-   involve lists, since map and Enum involve sets. 
+   involve lists, since map and Enum involve sets. The syntax is 
+   a struggle. 
 
 7. Which parts of this assignment did you have trouble with, if any?
-   The deployment was the most frustrating. I spent hours going
-   through the phoenix documentation to try to get the service to 
-   work. I ended up running out of time with the coding.
+   The deployment was the most frustrating.
 
 
 And here's a list of tasks for grading comments. Just leave this here:
