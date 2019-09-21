@@ -19,14 +19,15 @@ defmodule Practice.Factor do
       true -> 
         factorHelper(y, divisor + 1, factorsList)
     end
-  end
+  end  
 
   def findFactors(x) do
-    divisor = 2
-    factorsList = []
-    x_int = parse_int(x)
-    result = factorHelper(x_int, divisor, factorsList) 
-    result
+    x
+    |> factorHelper(2, [])
+    #divisor = 2
+    #factorsList = []
+    #x_int = parse_int(x)
+    #factorHelper(x, divisor, factorsList)
     #"TEST_RESULT"
   end
 

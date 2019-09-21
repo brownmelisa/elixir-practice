@@ -21,5 +21,9 @@ defmodule Practice.Calc do
     # |> convert to postfix
     # |> reverse to prefix
     # |> evaluate as a stack calculator using pattern matching
+    
+    # list2 = List.duplicate([:num, :op], div(num, 2)) |> List.flatten([:num])
+    # klist = Enum.zip(list2, parse)
+    # Keyword.get_values(klist, :num)
   end
 end
